@@ -11,9 +11,11 @@
 </head>
 
 <body>
+
+    <!-- ----------------------------- Header --------------------------- -->
     <header class="header">
         <a href="#" class="logo">Portfolio.</a>
-        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-menu' id="menu-icon"></i> <!-- menu icon(3 lines)-->
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
@@ -24,38 +26,42 @@
         </nav>
     </header>
 
+    <!----------------------------------- Home --------------------------------------->
+
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Datta Kale</h1>
-            <h3>And I'm a <span> Frontend Developer</span></h3>
+            <h3 id="am">And I'm a <span class="multiple-text"></span></h3> <!-- Multiple text inside span -->
             <p>
                 As a third-year computer engineering student, I'm driven to combine technical knowledge with innovative
                 thinking to solve real-world challenges. Welcome to my portfolio!</p>
-            <div class="social-media">
+
+            <div class="social-media"> <!-- social media icons -->
                 <a href="https://wa.me/8767062808" target="_blank"><i class='bx bxl-whatsapp'></i></a>
                 <a href="https://linkedin.com/in/kaledatta" target="_blank"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://twitter.com/DattaK51203" target="_blank"><i class='bx bxl-twitter'></i></a>
                 <a href="https://github.com/dattakale21" target="_blank"><i class='bx bxl-github'></i></a>
             </div>
+
             <a href="https://drive.google.com/file/d/125uDscPoPIDUEDdYlZ5-aExt2wHjEzxY/view?usp=drive_link" class="btn"
-                target="_blank">Download CV</a>
+                target="_blank">Download CV</a> <!-- CV/Resume download button-->
         </div>
+
         <div class="home-image">
             <img src="h1.png">
         </div>
     </section>
 
-
     <!-- ---------------------------------- About ----------------------------------- -->
-
 
     <section class="about" id="about">
         <div class="about-img">
             <img src="h3.png" alt="">
         </div>
+
         <div class="about-content">
-            <input type="checkbox" id="ch">
+            <input type="checkbox" id="ch"> <!-- for Read more/Show less button-->
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Frontend Developer</h3>
             <p>As a passionate and skilled computer engineering student, I am driven by the thrill of solving complex
@@ -67,24 +73,16 @@
 
             <div class="more_content">
                 <p> I strive to contribute my knowledge and creativity to real-world challenges, aiming to make a
-                    positive impact in the world of technology.
-
-                    Let's connect and embark on an exciting coding journey together, pushing the boundaries of what
+                    positive impact in the world of technology.Let's connect and embark on an exciting coding journey
+                    together, pushing the boundaries of what
                     technology can achieve. I'm eager to embrace new opportunities and shape the future of technology
                     through meaningful projects. Thank you for visiting my portfolio, and I look forward to
                     collaborating with you!</p>
-                <label for="ch">Show less</label>
+                <label for="ch">Show less</label> <!-- Show less button-->
             </div>
-            <label for="ch">Read More</label>
-
+            <label for="ch">Read More</label> <!-- Read more button-->
         </div>
-
-
     </section>
-
-
-
-
 
     <!-- ----------------------------------- Education ------------------------------------ -->
 
@@ -92,7 +90,7 @@
         <h2 class="heading">My <span>Journey</span></h2>
 
         <div class="education-row">
-            <div class="education-column">
+            <div class="education-column ed1">
                 <h3 class="title">Education</h3>
                 <div class="education-box">
                     <div class="education-content">
@@ -130,12 +128,10 @@
                                     target="_blank"><span>View</span></a></p>
                         </div>
                     </div>
-
                 </div>
             </div>
 
-
-            <div class="education-column">
+            <div class="education-column ed2">
                 <h3 class="title">Experience</h3>
                 <div class="education-box">
                     <div class="education-content">
@@ -175,39 +171,40 @@
                                     target="_blank"><span>View</span></a></p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-        <hr id="hr">
+        <hr id="hr"> <!-- Horizontal line -->
 
     </section>
-
 
     <!-- ---------------------------------- contact ----------------------------------- -->
 
     <section class="contact" id="contact">
         <h2 class="heading1">Contact <span>Me!</span></h2>
+
         <form action="https://formspree.io/f/xqkvajla" method="post"> <!-- Here i used the 'formspree' website-->
             <div class="input-box">
                 <input type="text" name="Name" placeholder="Full Name">
                 <input type="email" name="Email" placeholder="Email Address">
             </div>
+
             <div class="input-box">
                 <input type="Number" name="Mobile" placeholder="Mobile Number">
                 <input type="text" name="Subject" placeholder="Email Subject">
             </div>
+
             <textarea name="Message" id="messa" cols="27" rows="9" name="Message" placeholder="Your Message"></textarea>
             <input type="submit" class="btn" id="mes" value="Send Message">
         </form>
     </section>
-
 
     <!-- ------------------------------ Achivements ------------------------------------ -->
 
     <section class="achivements" id="achivements">
         <h2 class="heading">My <span>Achivements</span></h2>
         <div class="achivements-box">
+
             <div class="achivements-row">
                 <div class="achivements-content">
                     <div class="content">
@@ -224,7 +221,7 @@
                 </div>
 
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content rr">
                         <a href="prompt.pdf" target="_blank"> <img src="images/3.png" alt=""></a>
                         <h1>Java Programming</h1>
                     </div>
@@ -232,9 +229,8 @@
             </div>
 
             <div class="achivements-row">
-
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ll">
                         <a href="prompt.pdf" target="_blank"><img src="images/4.png" alt=""></a>
                         <h1>Google Data Analyics</h1>
                     </div>
@@ -248,7 +244,7 @@
                 </div>
 
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content rr">
                         <a href="prompt.pdf" target="_blank"><img src="images/6.png" alt=""></a>
                         <h1>Data Analysis with R Programming</h1>
                     </div>
@@ -256,10 +252,8 @@
             </div>
 
             <div class="achivements-row">
-
-
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ll">
                         <a href="prompt.pdf" target="_blank"><img src="images/7.png" alt=""></a>
                         <h1>Analyze Data to answer questions</h1>
                     </div>
@@ -272,7 +266,6 @@
                     </div>
                 </div>
 
-
                 <div class="achivements-content">
                     <div class="content">
                         <a href="prompt.pdf" target="_blank"><img src="images/9.png" alt=""></a>
@@ -281,10 +274,10 @@
                 </div>
 
             </div>
-            <div class="achivements-row">
 
+            <div class="achivements-row">
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ll">
                         <a href="prompt.pdf" target="_blank"><img src="images/10.png" alt=""></a>
                         <h1>Foundations: Data Everywhere</h1>
                     </div>
@@ -304,10 +297,10 @@
                     </div>
                 </div>
             </div>
-            <div class="achivements-row">
 
+            <div class="achivements-row">
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ll">
                         <a href="prompt.pdf" target="_blank"><img src="images/13.png" alt=""></a>
                         <h1>Google Data Analytics</h1>
                     </div>
@@ -327,10 +320,10 @@
                     </div>
                 </div>
             </div>
-            <div class="achivements-row">
 
+            <div class="achivements-row">
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ll">
                         <a href="prompt.pdf" target="_blank"><img src="images/16.png" alt=""></a>
                         <h1>Overview of Infosys Springboard</h1>
                     </div>
@@ -350,10 +343,10 @@
                     </div>
                 </div>
             </div>
-            <div class="achivements-row">
 
+            <div class="achivements-row">
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ll">
                         <a href="prompt.pdf" target="_blank"><img src="images/19.png" alt=""></a>
                         <h1>Data Entry</h1>
                     </div>
@@ -373,10 +366,10 @@
                     </div>
                 </div>
             </div>
-            <div class="achivements-row">
 
+            <div class="achivements-row">
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ll">
                         <a href="prompt.pdf" target="_blank"><img src="images/22.png" alt=""></a>
                         <h1>C & C++ Programming</h1>
                     </div>
@@ -395,19 +388,18 @@
                         <h1>Work Smarter with Microsoft Word</h1>
                     </div>
                 </div>
-
             </div>
-            <div class="achivements-row">
 
+            <div class="achivements-row">
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ll">
                         <a href="prompt.pdf" target="_blank"><img src="images/25.png" alt=""></a>
                         <h1>Crash Course on Python</h1>
                     </div>
                 </div>
 
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ">
                         <a href="prompt.pdf" target="_blank"><img src="images/26.png" alt=""></a>
                         <h1>Python for Data Science and Al</h1>
                     </div>
@@ -422,9 +414,8 @@
             </div>
 
             <div class="achivements-row">
-
                 <div class="achivements-content">
-                    <div class="content">
+                    <div class="content ll">
                         <a href="prompt.pdf" target="_blank"><img src="images/28.png" alt=""></a>
                         <h1>Python for Data science and AI</h1>
                     </div>
@@ -445,22 +436,33 @@
                 </div>
             </div>
         </div>
-
     </section>
 
+    <!-- -------------------------------- Footer ----------------------------------- -->
     <footer class="footer">
         <h2>Copyright © 2023 Datta. All rights reserved | Designed by Datta</h2>
-        <a href="#home" class="up-arrow">
+
+        <a href="#home" class="up-arrow"> <!-- Up arrow icon -->
             <i class='bx bxs-chevrons-up'></i>
         </a>
 
-        <div class="social-icons">
+        <div class="social-icons"> <!-- Linkedin icon -->
             <a href="https://linkedin.com/in/kaledatta" target="_blank"><i class='bx bxl-linkedin'></i></a>
         </div>
     </footer>
 
-    <script src="index.js"></script>
+    <!-- ----------------------- Scroll Reveal ------------------------------------ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
+    <!-- --------------------------- Typed JS (used from 'mattboldt' -> search on google) --------------------------- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ---------------------------- Main JS -------------------------------- -->
+    <script src="index.js"></script>
 </body>
 
 </html>
+
+<!-- CODE BY - DATTA KALE -->
+
+<!-- -------------------------------------- END ------------------------------------ -->
