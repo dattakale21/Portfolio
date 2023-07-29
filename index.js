@@ -45,7 +45,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading , .heading1,.home .home-image img', { origin: 'top' });
-ScrollReveal().reveal('.contact form ,.achivements-box ,.achivements-content .content h1 ,.social-media i, .btn, .about-img img', { origin: 'bottom' });
+ScrollReveal().reveal('.contact form ,.achivements-box ,.achivements-content .content h1 ,.social-media i, .btn, .about-img img, .footer', { origin: 'bottom' });
 ScrollReveal().reveal('.ed1 ,.ed2,.social-icons a,.home-content h1 , .about .about-img img', { origin: 'left' });
 
 // ------------------------------ multiple-text ---------------------------------------
