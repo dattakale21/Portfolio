@@ -1811,7 +1811,6 @@ label:hover {
         margin-top: 11rem;
         margin-right: -9.2rem;
         margin-left: -3rem;
-        margin-bottom: 36rem;
     }
 
     .contact .btn {
@@ -1822,7 +1821,7 @@ label:hover {
         margin-right: -1rem;
         padding-top: 5rem;
         padding-bottom: 5rem;
-
+        padding-bottom: 36rem;
     }
 
     #hr {
@@ -1839,7 +1838,7 @@ label:hover {
 
     .achivements .achivements-box {
         margin-right: -1.6rem;
-       
+
     }
 
     .achivements .heading {
@@ -1872,10 +1871,11 @@ label:hover {
         margin-right: -9.1rem;
         margin-bottom: -3rem;
     }
-    
-    .footer h2, #name {
+
+    .footer h2,
+    #name {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         font-size: 1.8rem;
         margin: 0 auto;
     }
@@ -1895,14 +1895,16 @@ label:hover {
         width: 94%;
     }
 
-    .home-content .btn{
+    .home-content .btn {
         margin-top: -34rem;
         padding-top: -45rem;
     }
 
-    .contact .input-box , #messa{
-        padding:0 1rem;
+    .contact .input-box,
+    #messa {
+        padding: 0 1rem;
     }
+
     @keyframes floatImage1 {
         0% {
             transform: translateY(0);
