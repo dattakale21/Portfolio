@@ -1802,7 +1802,7 @@ label:hover {
         margin-right: -8rem;
     }
 
-    .home .home-content{
+    .home .home-content {
         padding-bottom: 4rem;
     }
 
@@ -1822,9 +1822,10 @@ label:hover {
         margin-bottom: 30rem;
     }
 
-    .contact .heading1{
-        padding-top: 24rem;
+    .contact .heading1 {
+        padding-top: 16rem;
     }
+
     .contact form {
         margin-right: -1rem;
         padding-top: 5rem;
@@ -1833,10 +1834,11 @@ label:hover {
     }
 
     .contact form .input-box input,
-.contact form textarea {
-  padding:1.2rem 0.9rem;
-  font-size: 2.5rem;
-}
+    .contact form textarea {
+        padding: 1.2rem 0.9rem;
+        font-size: 2.5rem;
+    }
+
     #hr {
         margin-top: 14rem;
         margin-right: 0.1rem;
@@ -1896,7 +1898,7 @@ label:hover {
     .social-media {
         margin-top: 3rem;
         margin-bottom: -4rem;
-        margin-right:-1.3rem ;
+        margin-right: -1.3rem;
     }
 
     .social-media a i {
