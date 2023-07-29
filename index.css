@@ -1820,6 +1820,8 @@ label:hover {
 
     .contact form {
         margin-right: -1rem;
+        padding-top: 5rem;
+
     }
 
     #hr {
@@ -1850,8 +1852,6 @@ label:hover {
         width: 98%;
         margin-left: 0.5rem;
         margin-top: -0.5rem;
-        padding:0 2rem;
-        border-radius: 4rem;
     }
 
     .education {
@@ -1862,18 +1862,16 @@ label:hover {
         width: 93%;
         height: 31%;
         margin-left: 1rem;
-        margin-bottom: -21rem;
+        /* margin-bottom: -21rem; */
     }
     
     .about .about-content {
-        /* margin-top: rem; */
-        margin: auto;
         margin-left: 3rem;
 
     }
 
     .footer{
-        margin-right:-9.1 ;
+        margin-right:-9.1rem ;
     }
 }
 
