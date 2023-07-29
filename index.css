@@ -1823,7 +1823,7 @@ label:hover {
     }
 
     .contact .heading1 {
-        padding-top: 6rem;
+        padding-top: -5rem;
     }
 
     .contact form {
@@ -1835,8 +1835,8 @@ label:hover {
 
     .contact form .input-box input,
     .contact form textarea {
-        padding: 1.2rem 0.9rem;
-        font-size: 2.5rem;
+        padding: 0.4rem 0.9rem;
+        font-size: 2.1rem;
     }
 
     #hr {
