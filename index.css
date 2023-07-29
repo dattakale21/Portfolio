@@ -1870,13 +1870,13 @@ label:hover {
 
     .footer {
         margin-right: -9.1rem;
-        margin-bottom: -6rem;
+        margin-bottom: -3rem;
     }
-
-    .footer h2, #name{
-        display:block;
-        font-size: 1.6rem;
-        margin:0 auto;
+    
+    .footer h2, #name {
+        display: block;
+        font-size: 1.9rem;
+        margin: 0 auto;
     }
 
     .social-media {
