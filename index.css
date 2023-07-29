@@ -1909,7 +1909,7 @@ label:hover {
     }
 
     .contact #messa {
-        width: 94%;
+        width: 93%;
         height: 45rem;
     }
 
@@ -1935,6 +1935,55 @@ label:hover {
         100% {
             transform: translateY(0);
         }
+    }
+}
+
+
+@media (max-width:218px) {
+    .about {
+        margin-right: -13rem;
+    }
+
+    .achivements .achivements-box {
+        margin-right: -1.3rem;
+    }
+
+    .achivements {
+        margin-right: -13rem;
+    }
+
+    .achivements .heading {
+        margin-left: -3rem;
+    }
+
+    .education .education-box {
+        margin-left: -2rem;
+    }
+
+    .education .heading {
+        margin-right: 5rem;
+    }
+
+    .home .home-content {
+        margin-left: 3rem;
+    }
+
+    #hr {
+        margin-right: -4rem;
+    }
+
+    .contact form .input-box input,
+    #messa {
+        margin-left: 4rem;
+    }
+
+    .contact #messa {
+        width: 83%;
+        margin-left: 6rem;
+    }
+
+    .footer {
+        width: 135%;
     }
 }
 
