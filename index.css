@@ -1808,10 +1808,10 @@ label:hover {
     }
 
     .contact {
-        margin-top: 4rem;
+        margin-top: 11rem;
         margin-right: -9.2rem;
         margin-left: -3rem;
-        margin-bottom: 24rem;
+        margin-bottom: 14rem;
     }
 
     .contact .btn {
@@ -1837,6 +1837,7 @@ label:hover {
 
     .achivements .achivements-box {
         margin-right: -1.6rem;
+       
     }
 
     .achivements .heading {
@@ -1848,6 +1849,7 @@ label:hover {
         width: 98%;
         margin-left: 0.5rem;
         margin-top: -0.5rem;
+        /* padding:0 rem; */
     }
 
     .education {
@@ -1862,20 +1864,21 @@ label:hover {
 
     .about .about-content {
         margin-left: 3rem;
-        padding-bottom: 7rem;
+        padding-bottom: 19rem;
     }
 
     .footer {
         margin-right: -9.1rem;
-        margin-bottom: -1rem;
+        margin-bottom: -2rem;
     }
 
     .footer h2 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     .social-media {
-        margin-top: 4rem;
+        margin-top: 3rem;
+        margin-bottom: -4rem;
     }
 
     .social-media a i {
@@ -1886,6 +1889,11 @@ label:hover {
 
     .contact #messa {
         width: 96%;
+    }
+
+    .home-content .btn{
+        margin-top: -34rem;
+        padding-top: -45rem;
     }
 
     @keyframes floatImage1 {
