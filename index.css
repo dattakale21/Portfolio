@@ -1826,6 +1826,7 @@ label:hover {
     }
 
     #hr {
+        margin-top: 14rem;
         margin-right: 0.1rem;
         width: 100%;
     }
@@ -1869,10 +1870,10 @@ label:hover {
 
     .footer {
         margin-right: -9.1rem;
-        margin-bottom: -4rem;
+        margin-bottom: -6rem;
     }
 
-    .footer h2, span{
+    .footer h2, #name{
         display:block;
         font-size: 1.6rem;
         margin:0 auto;
