@@ -1910,10 +1910,11 @@ label:hover {
 
     .contact #messa {
         width: 94%;
+        height: 45rem;
     }
 
     .home-content .btn {
-        margin-top: -34rem;
+        margin-top: -38rem;
         padding-top: -45rem;
     }
 
