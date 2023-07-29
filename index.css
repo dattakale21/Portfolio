@@ -1891,7 +1891,7 @@ label:hover {
     }
 
     .contact #messa {
-        width: 96%;
+        width: 94%;
     }
 
     .home-content .btn{
@@ -1899,6 +1899,9 @@ label:hover {
         padding-top: -45rem;
     }
 
+    .contact .input-box , #messa{
+        padding:0 1rem;
+    }
     @keyframes floatImage1 {
         0% {
             transform: translateY(0);
