@@ -1834,6 +1834,7 @@ label:hover {
     .achivements {
         margin-right: -9.2rem;
         margin-left: -3rem;
+        margin-top: -24rem;
     }
 
     .achivements .achivements-box {
@@ -1875,7 +1876,7 @@ label:hover {
     
     .footer h2, #name {
         display: block;
-        font-size: 1.9rem;
+        font-size: 2.4rem;
         margin: 0 auto;
     }
 
