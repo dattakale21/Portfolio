@@ -1802,6 +1802,10 @@ label:hover {
         margin-right: -8rem;
     }
 
+    .home .home-content{
+        padding-bottom: 4rem;
+    }
+
     .about {
         margin-right: -9.1rem;
         margin-left: -3rem;
@@ -1815,6 +1819,7 @@ label:hover {
 
     .contact .btn {
         margin-top: 6rem;
+        margin-bottom: 30rem;
     }
 
     .contact form {
@@ -1883,6 +1888,7 @@ label:hover {
     .social-media {
         margin-top: 3rem;
         margin-bottom: -4rem;
+        margin-right:-1.3rem ;
     }
 
     .social-media a i {
