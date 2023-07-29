@@ -1811,6 +1811,7 @@ label:hover {
         margin-top: 4rem;
         margin-right: -9.2rem;
         margin-left: -3rem;
+        margin-bottom: 24rem;
     }
 
     .contact .btn {
@@ -1825,7 +1826,8 @@ label:hover {
     }
 
     #hr {
-        margin-right: 1rem;
+        margin-right: 0.1rem;
+        width: 100%;
     }
 
     .achivements {
@@ -1853,10 +1855,9 @@ label:hover {
     }
 
     .about .about-img img {
-        width: 93%;
+        width: 98%;
         height: 31%;
-        margin-left: 1rem;
-        margin-top: 0.8rem;
+        margin-left: -0.4rem;
     }
 
     .about .about-content {
@@ -1866,16 +1867,21 @@ label:hover {
 
     .footer {
         margin-right: -9.1rem;
+        margin-bottom: -1rem;
     }
 
     .footer h2 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+    }
+
+    .social-media {
+        margin-top: 4rem;
     }
 
     .social-media a i {
-        font-size: 3rem;
-        height: 6rem;
-        width: 6rem;
+        font-size: 2.5rem;
+        height: 4.5rem;
+        width: 4.5rem;
     }
 
     .contact #messa {
@@ -1888,7 +1894,7 @@ label:hover {
         }
 
         50% {
-            transform: translateY(-2.4rem);
+            transform: translateY(-2.0rem);
         }
 
         100% {
