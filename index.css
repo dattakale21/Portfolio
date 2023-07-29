@@ -1811,7 +1811,7 @@ label:hover {
         margin-top: 11rem;
         margin-right: -9.2rem;
         margin-left: -3rem;
-        margin-bottom: 14rem;
+        margin-bottom: 27rem;
     }
 
     .contact .btn {
@@ -1876,7 +1876,7 @@ label:hover {
     .footer h2, #name {
         display: flex;
         flex-direction:column;
-        font-size: 2.1rem;
+        font-size: 1.8rem;
         margin: 0 auto;
     }
 
