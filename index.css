@@ -1790,7 +1790,7 @@ label:hover {
 }
 
 
-@media (max-width:412px) and (max-height:914px) {
+@media (min-width:412px) and (min-height:914px) {
     .home .home-image img {
         margin-left: 7.3rem;
         padding-top: 5rem;
@@ -1851,7 +1851,6 @@ label:hover {
         width: 98%;
         margin-left: 0.5rem;
         margin-top: -0.5rem;
-        /* padding:0 rem; */
     }
 
     .education {
@@ -1875,7 +1874,8 @@ label:hover {
     }
     
     .footer h2, #name {
-        display: block;
+        display: flex;
+        flex-direction:column;
         font-size: 2.4rem;
         margin: 0 auto;
     }
