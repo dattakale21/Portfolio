@@ -1812,7 +1812,7 @@ label:hover {
     }
 
     .contact {
-        margin-top: 11rem;
+        margin-top: -4rem;
         margin-right: -9.2rem;
         margin-left: -3rem;
     }
@@ -1822,6 +1822,9 @@ label:hover {
         margin-bottom: 30rem;
     }
 
+    .contact .heading1{
+        padding-top: 24rem;
+    }
     .contact form {
         margin-right: -1rem;
         padding-top: 5rem;
@@ -1829,6 +1832,11 @@ label:hover {
         padding-bottom: 36rem;
     }
 
+    .contact form .input-box input,
+.contact form textarea {
+  padding:1.2rem 0.9rem;
+  font-size: 2.5rem;
+}
     #hr {
         margin-top: 14rem;
         margin-right: 0.1rem;
