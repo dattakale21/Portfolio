@@ -1876,7 +1876,7 @@ label:hover {
     .footer h2, #name {
         display: flex;
         flex-direction:column;
-        font-size: 2.4rem;
+        font-size: 2.1rem;
         margin: 0 auto;
     }
 
