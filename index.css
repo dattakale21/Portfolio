@@ -1789,6 +1789,86 @@ label:hover {
     }
 }
 
+
+@media (max-width:412px) and (max-height:914px) {
+    .home .home-image img {
+        margin-left: 10.3rem;
+        padding-top: 5rem;
+        height: 17%;
+        width: 65%;
+    }
+
+    .home {
+        margin-right: -8rem;
+    }
+
+
+    .about {
+        margin-right: -9.1rem;
+        margin-left: -3rem;
+
+    }
+
+
+    .contact {
+        margin-right: -9.2rem;
+        margin-left: -3rem;
+    }
+
+
+
+    .contact form {
+        margin-right: -1rem;
+    }
+
+    #hr {
+        margin-right: 1rem;
+    }
+
+
+    .achivements {
+        margin-right: -9.2rem;
+        margin-left: -3rem;
+        /* margin-bottom: 50rem; */
+
+    }
+
+    .achivements .achivements-box {
+        margin-right: -1.6rem;
+
+    }
+
+    .achivements .heading {
+        margin-right: -4rem;
+
+    }
+
+    .achivements .achivements-content img {
+        height: 60%;
+        margin-left: 4rem;
+        margin-top: -0.5rem;
+    }
+
+    .education {
+        margin-right: -9rem;
+    }
+
+    .about .about-img img {
+        width: 86%;
+        height: 31%;
+        margin-left: 4rem;
+        margin-bottom: -21rem;
+    }
+    
+    .about .about-content {
+        margin-top: -3rem;
+        margin: auto;
+        margin-left: 3rem;
+
+    }
+}
+
+
 /* CODE BY - DATTA KALE */
 
 /* ---------------------------------------- END ------------------------------------- */
