@@ -63,6 +63,7 @@ body {
 
 .navbar {
     margin-left: 12%;
+    margin-right: -9%;
     padding-top: 1rem;
 }
 
@@ -359,6 +360,7 @@ label:hover {
     width: 49%;
 }
 
+
 /* ------------------------------- Education ------------------------------ */
 .education {
     display: flex;
@@ -469,6 +471,83 @@ label:hover {
 #hr {
     margin-top: 10rem;
 }
+
+/* --------------------------------- Achivements ---------------------------- */
+
+.Portfolio {
+    height: 100%;
+    margin-top: 15rem;
+    background-color: rgb(22, 40, 52);
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portfolio .heading {
+    margin-top: -3rem;
+    padding-bottom: 3rem;
+}
+
+.portfolio-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: .1rem solid var(--main-color);
+    flex-wrap: wrap;
+    max-width: 100vw;
+    border-radius: .9rem;
+    background-color: var(--bg-color);
+    /* padding: 0 1rem; */
+}
+
+.portfolio-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-content  img {
+    width: 33rem;
+    height: 34rem;
+    padding: 3rem 1rem;
+    border-radius: 4rem;
+    margin: 0.7rem 0.7rem;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.portfolio-content .content  {
+ position: absolute;
+ bottom:0;
+ left:0;
+ width: 4%;
+ height: 100%;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding: 3rem 3rem;
+  
+}
+
+.portfolio-content .content .link i{
+    font-size: 5rem;
+}
+
+
+.portfolio-content .content img :hover {}
+
+.portfolio-content .content h1 {
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.5rem;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+
+}
+
 
 /* --------------------------------- Achivements ---------------------------- */
 .achivements {
@@ -662,7 +741,7 @@ label:hover {
     }
 
     .achivements {
-        margin-top: 14rem;
+        margin-top: 0rem;
     }
 }
 
@@ -699,7 +778,7 @@ label:hover {
     }
 
     .home-content {
-        margin-top:8rem;
+        margin-top: 8rem;
     }
 }
 
