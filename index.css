@@ -472,7 +472,7 @@ label:hover {
     margin-top: 10rem;
 }
 
-/* --------------------------------- Achivements ---------------------------- */
+/* --------------------------------- portfolio ---------------------------- */
 
 .Portfolio {
     height: 100%;
@@ -557,6 +557,7 @@ label:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 14rem;
     align-items: center;
 }
 
@@ -601,7 +602,7 @@ label:hover {
 .content h1 {
     text-align: center;
     font-size: 1.9rem;
-    margin-top: .03rem;
+    margin-top: 4rem;
     color: var(--text-color);
     font-size: 2rem;
     cursor: default;
@@ -741,7 +742,7 @@ label:hover {
     }
 
     .achivements {
-        margin-top: 0rem;
+        margin-top: 21rem;
     }
 }
 
