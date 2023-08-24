@@ -58,6 +58,29 @@ const typed = new Typed('.multiple-text', {
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+    let themeToggle = document.getElementById("theme-toggle");
+    let moonIcon = document.getElementById("moon");
+    let sunIcon = document.getElementById("sun");
+
+    themeToggle.onclick = () => {
+        document.body.classList.toggle("dark-theme");
+
+        if (document.body.classList.contains("dark-theme")) {
+            moonIcon.style.display = "inline-block";
+            sunIcon.style.display = "none";
+        } else {
+            moonIcon.style.display = "none";
+            sunIcon.style.display = "inline-block";
+        }
+    }
+});
+
+
+
+
+
+
 // CODE BY - DATTA KALE
 
 //  -------------------------------------- END ---------------------------------------

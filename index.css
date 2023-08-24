@@ -62,9 +62,14 @@ body {
 }
 
 .navbar {
-    margin-left: 12%;
-    margin-right: -9%;
-    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    /* Align items to the right */
+    align-items: center;
+    /* Center items vertically */
+    padding: 1rem;
+    /* Add padding to the navbar */
+    /* background-color: #ffffff; Set the background color of the navbar */
 }
 
 .navbar a:hover {
@@ -74,6 +79,51 @@ body {
 .navbar a:hover,
 .navbar a.active {
     color: var(--main-color);
+}
+
+#moon.active {
+    display: none;
+}
+
+#sun.active {
+    display: inline-block;
+}
+
+
+.dark-theme {
+    --bg-color: #abbbd8;
+    --second-bg-color: #c6c6c6;
+    --text-color: #2b1d1d;
+    --main-color: rgb(20, 48, 229);
+}
+
+#theme-toggle {
+    /* display: flex; */
+    position: absolute;
+    /* align-items: center; */
+    right: 2rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+/* 
+.theme-toggle {
+    position: absolute;
+    top: 50%;
+    right: -12rem; /* Adjust the value as needed 
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+} */
+
+#theme-toggle #moon,
+#sun {
+    font-size: 2.2rem;
+}
+
+#theme-toggle #moon,
+#sun {
+    cursor: pointer;
 }
 
 /* -------------------------------- Menu icon ------------------------------- */
@@ -508,7 +558,7 @@ label:hover {
     flex-direction: row;
 }
 
-.portfolio-content  img {
+.portfolio-content img {
     width: 33rem;
     height: 34rem;
     padding: 3rem 1rem;
@@ -518,21 +568,21 @@ label:hover {
     opacity: 0.5;
 }
 
-.portfolio-content .content  {
- position: absolute;
- bottom:0;
- left:0;
- width: 4%;
- height: 100%;
- display:flex;
- justify-content: center;
- align-items: center;
- text-align: center;
- padding: 3rem 3rem;
-  
+.portfolio-content .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 4%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 3rem;
+
 }
 
-.portfolio-content .content .link i{
+.portfolio-content .content .link i {
     font-size: 5rem;
 }
 
@@ -979,7 +1029,7 @@ label:hover {
     .navbar {
         position: absolute;
         top: 80%;
-        left: -12%;
+        left: 0.3%;
         width: 100%;
         padding: 0.6rem 3%;
         background: var(--bg-color);
@@ -1869,17 +1919,44 @@ label:hover {
     }
 }
 
+@media (max-width:744px) and (max-height:914px) {
+    /* .theme-toggle {
+        position: absolute;
+        top: 50%;
+        right: 4rem; /* Adjust the value as needed 
+         transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+    } */
+
+    #theme-icons{
+        position: absolute;
+        left: -5rem;
+        top:-0.3rem;
+    }
+     
+    /* .theme-toggle #moon, #sun {
+        position: absolute;
+        left:-6rem;
+        top:-0.5rem;
+        font-size:2.7rem;
+        cursor: pointer;
+        margin: 0;
+    } */
+    
+}
 
 @media (max-width:412px) and (max-height:914px) {
     .home .home-image img {
         margin-left: 7.3rem;
-        padding-top: 5rem;
+        padding-top: 19rem;
         height: 17%;
         width: 74%;
     }
 
     .home {
         margin-right: -8rem;
+        padding-bottom: 29rem;
     }
 
     .home .home-content {
@@ -1956,11 +2033,12 @@ label:hover {
         width: 98%;
         height: 31%;
         margin-left: -0.4rem;
+        padding-top: 12rem;
     }
 
     .about .about-content {
         margin-left: 3rem;
-        padding-bottom: 19rem;
+        padding-bottom: 29rem;
     }
 
     .footer {
