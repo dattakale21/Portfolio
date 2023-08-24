@@ -1039,12 +1039,13 @@ label:hover {
     }
 
     .achivements {
-        margin-top: 0rem;
+        margin-top: 3rem;
     }
 
     .contact {
         margin-top: 1rem;
-        padding-bottom: 38rem;
+        padding-bottom: -45rem;
+        /* margin-bottom: 40rem; */
     }
 
     .achivements-content .content h1 {
@@ -2021,7 +2022,7 @@ label:hover {
     }
 
     .contact .heading1 {
-        margin-top: -4rem;
+        margin-top: 2rem;
         margin-bottom: -3rem;
     }
 
@@ -2047,7 +2048,7 @@ label:hover {
     .achivements {
         margin-right: -9.2rem;
         margin-left: -3rem;
-        margin-top: -24rem;
+        margin-top: 3rem;
     }
 
     .achivements .achivements-box {
