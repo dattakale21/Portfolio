@@ -45,7 +45,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading , .heading1,.home .home-image img', { origin: 'top' });
-ScrollReveal().reveal('.contact form ,.achivements-box ,.achivements-content .content h1 ,.social-media i, .btn, .about-img img', { origin: 'bottom' });
+ScrollReveal().reveal('.contact form ,.achivements-box ,.achivements-content .content h1 ,.social-media i,.portfolio-content .content,.portfolio-box .btn, .about-img img', { origin: 'bottom' });
 ScrollReveal().reveal('.ed1 ,.ed2,.social-icons a,.home-content h1 , .about .about-img img', { origin: 'left' });
 
 // ------------------------------ multiple-text ---------------------------------------
@@ -56,25 +56,6 @@ const typed = new Typed('.multiple-text', {
     backDelay: 800,
     loop: true
 });
-
-
-// document.addEventListener("DOMContentLoaded", () => {
-//     let themeToggle = document.getElementById("theme-toggle");
-//     let moonIcon = document.getElementById("moon");
-//     let sunIcon = document.getElementById("sun");
-
-//     themeToggle.onclick = () => {
-//         document.body.classList.toggle("dark-theme");
-
-//         if (document.body.classList.contains("dark-theme")) {
-//             moonIcon.style.display = "inline-block";
-//             sunIcon.style.display = "none";
-//         } else {
-//             moonIcon.style.display = "none";
-//             sunIcon.style.display = "inline-block";
-//         }
-//     }
-// });
 
 
 document.addEventListener("DOMContentLoaded", () => {
