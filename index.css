@@ -112,9 +112,7 @@ body {
 }
 
 #theme-toggle {
-    /* display: flex; */
     position: absolute;
-    /* align-items: center; */
     right: 2rem;
     height: 2rem;
     width: 2rem;
@@ -569,8 +567,7 @@ label:hover {
 
 .portfolio-content img {
     width: 29vw;
-    height: 50vh;
-    /* padding: 3rem 1rem; */
+    height: 44vh;
     border-radius: 1.4rem;
     cursor: pointer;
     opacity: 0.8;
@@ -603,7 +600,8 @@ label:hover {
     letter-spacing: 0.1rem;
     word-spacing: 0.5rem;
     margin-top: 1rem;
-    margin-bottom: -1rem;
+    margin-bottom: 3rem;
+
 
 }
 
@@ -2116,7 +2114,7 @@ label:hover {
         margin-top: -0.5rem;
     }
 
-    .portfolio .portfolio-content img {
+    da .portfolio .portfolio-content img {
         height: 53%;
         width: 99%;
         margin-left: 0.5rem;
