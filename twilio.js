@@ -21,4 +21,6 @@ function sendMessage() {
 
 // Trigger this function when someone loads your website
 // You can use an event listener or route in your web application to trigger it
-sendMessage();
+window.addEventListener('load', () => {
+    sendMessage();
+});
