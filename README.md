@@ -11,7 +11,7 @@ Website URL: https://dattakale21.github.io/Portfolio
 
 Thank you for visiting, and I hope you find my portfolio engaging and informative!
 
-<img src="https://t.bkit.co/w_651af4d8b304c.gif" />
+<img src="https://t.bkit.co/w_651af6816df0f.gif" />
 
 
 
