@@ -1,10 +1,11 @@
-require('dotenv').config(); // Load environment variables from .env file
+// Import 'dotenv' and configure it to load environment variables
+require('dotenv').config();
 
-const twilio = require('twilio');
-
+// Now you can access environment variables like this
 const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 
+// The rest of your server-side code remains the same
 const client = twilio(accountSid, authToken);
 
 // Function to send a message
@@ -19,8 +20,5 @@ function sendMessage() {
         .catch(error => console.error(`Error sending message: ${error}`));
 }
 
-// Trigger this function when someone loads your website
-// You can use an event listener or route in your web application to trigger it
-window.addEventListener('load', () => {
-    sendMessage();
-});
+// Trigger this function when you want to send the message, for example, when a certain event occurs on your website.
+sendMessage(); // You can call this function wherever needed in your client-side code.
