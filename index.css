@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
 /* Google fonts */
 
+#yourNumberInput[type="number"]::-webkit-inner-spin-button,
+#yourNumberInput[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -65,12 +72,8 @@ body {
 .navbar {
     display: flex;
     justify-content: flex-end;
-    /* Align items to the right */
     align-items: center;
-    /* Center items vertically */
     padding: 1rem;
-    /* Add padding to the navbar */
-    /* background-color: #ffffff; Set the background color of the navbar */
 }
 
 .navbar a:hover {
@@ -400,6 +403,7 @@ label:hover {
     background: var(--second-bg-color);
     margin: 0.7rem 0;
     border-radius: 0.9rem;
+    resize: none;
 }
 
 .contact .btn {
@@ -592,17 +596,12 @@ label:hover {
     margin-top: 2rem;
 }
 
-
-.portfolio-content .content img :hover {}
-
 .portfolio-content .content h1 {
     font-size: 2.4rem;
     letter-spacing: 0.1rem;
     word-spacing: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
-
-
 }
 
 
@@ -614,7 +613,6 @@ label:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-top: 3rem; */
     align-items: center;
 }
 

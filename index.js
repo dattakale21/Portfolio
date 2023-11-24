@@ -1,4 +1,3 @@
-
 // ------------------------------ Menu - Icon ---------------------------------------
 
 let menuIcon = document.querySelector('#menu-icon');
@@ -57,7 +56,6 @@ const typed = new Typed('.multiple-text', {
     loop: true
 });
 
-
 document.addEventListener("DOMContentLoaded", () => {
     let themeToggle = document.getElementById("theme-toggle");
     let moonIcon = document.getElementById("moon");
@@ -74,12 +72,6 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.toggle("dark-theme");
     };
 });
-
-
-
-
-
-
 
 // CODE BY - DATTA KALE
 
