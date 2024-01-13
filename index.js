@@ -49,7 +49,7 @@ ScrollReveal().reveal('.ed1 ,.ed2,.social-icons a,.home-content h1 , .about .abo
 
 // ------------------------------ multiple-text ---------------------------------------
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Programmer', 'Explorer'],
+    strings: ['Frontend Developer', 'Programmer', 'Tech Enthusiast'],
     typeSpeed: 80,
     backSpeed: 80,
     backDelay: 800,
