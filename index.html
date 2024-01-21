@@ -185,19 +185,21 @@
 
     <section class="contact" id="contact">
         <h2 class="heading1">Contact <span>Me!</span></h2>
-
-        <form action="https://formspree.io/f/xqkvajla" method="post"> <!-- Here i used the 'formspree' website-->
+        <!-- https://formspree.io/f/xqkvajla -->
+        <form action=""> <!-- Here i used the 'formspree' website-->
             <div class="input-box">
-                <input type="text" name="Name" placeholder="Full Name">
-                <input type="email" name="Email" placeholder="Email Address">
+                <input type="text" name="Name" id="name" placeholder="Full Name" autocomplete="off">
+                <input type="email" name="Email" id="email" placeholder="Email Address" autocomplete="off">
             </div>
 
             <div class="input-box">
-                <input type="Number" name="Mobile" placeholder="Mobile Number" id="yourNumberInput" name="yourNumberInput">
-                <input type="text" name="Subject" placeholder="Email Subject">
+                <input type="Number" name="Mobile" id="phone" placeholder="Mobile Number" id="yourNumberInput"
+                    name="yourNumberInput" autocomplete="off">
+                <input type="text" name="Subject" id="subject" placeholder="Email Subject" autocomplete="off">
             </div>
 
-            <textarea name="Message" id="messa" cols="27" rows="9" name="Message" placeholder="Your Message"></textarea>
+            <textarea name="Message" id="messa" cols="27" rows="9" name="Message" placeholder="Your Message"
+                autocomplete="off"></textarea>
             <input type="submit" class="btn" id="mes" value="Send Message">
         </form>
     </section>
@@ -565,23 +567,23 @@
             <div class="achivements-row">
                 <div class="achivements-content">
                     <div class="content ll">
-                        <a href="achivements/Unstop EPIC.pdf" target="_blank"><img
-                                src="images/31.png" alt=""></a>
+                        <a href="achivements/Unstop EPIC.pdf" target="_blank"><img src="images/31.png" alt=""></a>
                         <h1>TVS Credit - IT Challenge</h1>
                     </div>
                 </div>
 
                 <div class="achivements-content">
                     <div class="content">
-                        <a href="achivements/Cyber Security - Webinar.pdf" target="_blank"><img
-                                src="images/32.png" alt=""></a>
+                        <a href="achivements/Cyber Security - Webinar.pdf" target="_blank"><img src="images/32.png"
+                                alt=""></a>
                         <h1>Cyber Threats & Endpoint Security</h1>
                     </div>
                 </div>
 
                 <div class="achivements-content">
                     <div class="content">
-                        <a href="achivements/HTML, CSS, JavaScript - Udemy.pdf" target="_blank"><img src="images/33.png" alt=""></a>
+                        <a href="achivements/HTML, CSS, JavaScript - Udemy.pdf" target="_blank"><img src="images/33.png"
+                                alt=""></a>
                         <h1>HTML, CSS & JS - Udemy</h1>
                     </div>
                 </div>
@@ -603,15 +605,24 @@
         </div>
     </footer>
 
+    <!-- ---------------------------- Contact JS ---------------------------------->
+    <script src="contact.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script> <!-- from the smtpjs.com -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  <!-- for the successfull message (google->sweetalert2.com)-->
+
     <!-- ----------------------- Scroll Reveal ------------------------------------ -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- --------------------------- Typed JS (used from 'mattboldt' -> search on google) --------------------------- -->
+    <!-- ------------ Typed JS (used from 'mattboldt' -> search on google) for typed animation in home sectio --------------------------- -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-    <!-- ---------------------------- Main JS -------------------------------- -->
+    <!-- ---------------------------- Main JS ---------------------------------->
     <script src="index.js"></script>
-    <script type="module" src="twilio.js"></script>
+
+
+
+
+
 </body>
 
 </html>
