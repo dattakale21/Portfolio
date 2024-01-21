@@ -11,7 +11,7 @@ import config from './config';
 function sendEmail() {
     const bodymessage = `Full Name: ${name.value}<br> Email: ${email.value}<br> Phone: ${phone.value}<br> Message: ${message.value}`
     Email.send({
-        SecureToken: config.emailjs.secureToken,
+        SecureToken: process.env.EMAILJS_SECURE_TOKEN,
         To: 'dattakale2008@gmail.com',
         From: email.value,
         Subject: subject.value,
