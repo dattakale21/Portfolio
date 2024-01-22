@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="index.css">
     <meta name="google-site-verification" content="iDbLpVaffAkf5AHnjV0TjIwUgYH36XOqkAJ1dIUFxS0" />
 </head>
@@ -185,10 +186,10 @@
 
     <section class="contact" id="contact">
         <h2 class="heading1">Contact <span>Me!</span></h2>
-        <!-- https://formspree.io/f/xqkvajla -->
-        <form action=""> <!-- Here i used the 'formspree' website-->
+
+        <form id="myForm">
             <div class="input-box">
-                <input type="text" name="Name" id="name" placeholder="Full Name" autocomplete="off">
+                <input type="text" name="Name" id="name1" placeholder="Full Name" autocomplete="off">
                 <input type="email" name="Email" id="email" placeholder="Email Address" autocomplete="off">
             </div>
 
@@ -202,10 +203,36 @@
                 autocomplete="off"></textarea>
             <input type="submit" class="btn" id="mes" value="Send Message">
         </form>
+
+        <script>
+            $(document).ready(function () {
+                $("#myForm").submit(function (e) {
+                    e.preventDefault();
+
+                    $.ajax({
+                        url: "https://formspree.io/f/mbjndddg",    // https://formspree.io/
+                        method: "POST",
+                        data: $(this).serialize(),
+                        dataType: "json",
+                        success: function () {
+                            Swal.fire({                          // https://sweetalert2.github.io/
+                                title: "Success",
+                                text: "Message Sent Successfully!",
+                                icon: "success"
+                            });
+                        },
+                        error: function () {
+                            Swal.fire({                         // https://sweetalert2.github.io/
+                                icon: "error",
+                                title: "Oops...",
+                                text: "There was an issue sending the email.",
+                            });
+                        }
+                    });
+                });
+            });
+        </script>
     </section>
-
-
-
 
     <!-- ------------------------------ Portfolio ------------------------------------ -->
 
@@ -606,9 +633,7 @@
     </footer>
 
     <!-- ---------------------------- Contact JS ---------------------------------->
-    <script type="module" src="contact.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script> <!-- from the smtpjs.com -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  <!-- for the successfull message (google->sweetalert2.com)-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- ----------------------- Scroll Reveal ------------------------------------ -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -618,10 +643,6 @@
 
     <!-- ---------------------------- Main JS ---------------------------------->
     <script src="index.js"></script>
-
-
-
-
 
 </body>
 
