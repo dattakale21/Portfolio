@@ -122,7 +122,7 @@ body {
     font-size: 2.2rem;
     cursor: pointer;
     left: 65rem;
-    margin-top: -0.3rem;
+    margin-top: -0.2rem;
 }
 
 /* Dark Theme Styles */
@@ -186,6 +186,7 @@ section {
 .home-content p {
     font-size: 1.6rem;
     margin-top: 1.5rem;
+    padding:0 3rem;
 }
 
 .home-content span {
@@ -318,7 +319,8 @@ section {
 
 .about-content p {
     font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+    margin: 4rem 1rem;
+    margin-top: -5rem;
 }
 
 #ch {
@@ -828,7 +830,7 @@ label:hover {
     }
 
     .education .heading {
-        margin-top: -1rem;
+        margin-top: 1rem;
     }
 
 }
@@ -963,7 +965,7 @@ label:hover {
     }
 
     .achivements {
-        padding-top: 12rem;
+        padding-top: 14rem;
     }
 
     .portfolio-content .content h1 {
@@ -990,7 +992,7 @@ label:hover {
     }
 
     .contact .heading1 {
-        margin-top: 10rem;
+        margin-top: 4rem;
     }
 
     .contact .btn {
@@ -1042,10 +1044,6 @@ label:hover {
     .portfolio-content .content h1 {
         font-size: 3.9rem;
         margin-bottom: 1.6rem;
-    }
-
-    .social-media {
-        margin-top: 7rem;
     }
 
     .social-media i {
@@ -1108,8 +1106,8 @@ label:hover {
 
     .achivements-content .content img {
         margin: auto;
-        width: 39vw;
-        height: 37vh;
+        width: 89vw;
+        height: 48vh;
     }
 
     .portfolio-content .content img {
@@ -1179,7 +1177,7 @@ label:hover {
     }
 
     label {
-        margin-top: 5rem;
+        margin-top: -1rem;
     }
 
     .achivements-box {
@@ -1262,9 +1260,9 @@ label:hover {
     }
 
     .achivements-content .content img {
-        width: 71vw;
-        height: 57vh;
-        margin: 2rem 4rem
+        width: 90vw;
+        height: 39vh;
+        margin: 2rem 0rem
     }
 
     .achivements .achivements-content h1 {
@@ -1285,16 +1283,17 @@ label:hover {
         margin: auto;
         margin-left: 3.1rem;
         padding-top: 6rem;
-        height: 40vh;
+        height: 46vh;
         width: 82vw;
 
     }
 
     .about .about-img img {
-        margin-top: -19rem;
+        margin-top: -21rem;
         width: 105vw;
-        height: 49vh;
-        margin-left: -8.1rem;
+        height: 60vh;
+        margin-left: -8.6rem;
+        margin-bottom: -3rem;
     }
 
     .home-content {
@@ -1320,17 +1319,17 @@ label:hover {
     }
 
     .footer h2 {
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
 
     .achivements-content .content img {
-        width: 71vw;
-        height: 50vh;
+        width: 90vw;
+        height: 32vh;
     }
 
     .portfolio-content .content img {
-        width: 78vw;
-        height: 33vh;
+        width: 90vw;
+        height: 32vh;
         margin: 0 0.4rem;
     }
 
@@ -1346,8 +1345,8 @@ label:hover {
 
 @media (max-width:455px) {
     .achivements-content .content img {
-        width: 71vw;
-        height: 47vh;
+        width: 89vw;
+        height: 30vh;
     }
 
     .about .about-img img {
@@ -1394,10 +1393,8 @@ label:hover {
 
 @media (max-width:396px) {
     .achivements-content .content img {
-        width: 72vw;
-        height: 43vh;
-        margin-right: 3.9rem;
-        margin-left: 3.6rem;
+        width: 88vw;
+        height: 31vh;
     }
 
     .achivements-content .content h1 {
@@ -1458,9 +1455,8 @@ label:hover {
     }
 
     .achivements-content .content img {
-        width: 77vw;
+        width: 89vw;
         height: 39vh;
-        margin-left: 2.4rem;
     }
 
     .achivements-content .content h1 {
@@ -1528,9 +1524,8 @@ label:hover {
     }
 
     .achivements-content .content img {
-        width: 75vw;
-        height: 35vh;
-        margin-left: 1.9rem;
+        width: 87vw;
+        height: 26vh;
     }
 
     .achivements-content .content h1 {
