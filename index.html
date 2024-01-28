@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=1.0, user-scalable=no">
     <title>Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+    <div class="mm">
     <!-- ----------------------------- Header --------------------------- -->
     <header class="header">
         <a href="#" class="logo">Portfolio.</a>
@@ -23,6 +23,7 @@
                 <i id="moon" class="bx bxs-moon" style="display: none;"></i>
                 <i id="sun" class="bx bxs-sun" style="display: inline-block;"></i>
             </div>
+            
         </div>
 
         <nav class="navbar">
@@ -189,14 +190,14 @@
 
         <form id="myForm">
             <div class="input-box">
-                <input type="text" name="Name" id="name1" placeholder="Full Name" autocomplete="off">
-                <input type="email" name="Email" id="email" placeholder="Email Address" autocomplete="off">
+                <input type="text" name="Name" id="name1" placeholder="Full Name" autocomplete="off" required>
+                <input type="email" name="Email" id="email" placeholder="Email Address" autocomplete="off" required>
             </div>
 
             <div class="input-box">
                 <input type="Number" name="Mobile" id="phone" placeholder="Mobile Number" id="yourNumberInput"
-                    name="yourNumberInput" autocomplete="off">
-                <input type="text" name="Subject" id="subject" placeholder="Email Subject" autocomplete="off">
+                    name="yourNumberInput" autocomplete="off" required>
+                <input type="text" name="Subject" id="subject" placeholder="Email Subject" autocomplete="off" required>
             </div>
 
             <textarea name="Message" id="messa" cols="27" rows="9" name="Message" placeholder="Your Message"
@@ -618,7 +619,7 @@
 
         </div>
     </section>
-
+</div>
     <!-- -------------------------------- Footer ----------------------------------- -->
     <footer class="footer">
         <h2>Copyright © 2024 Datta. All rights reserved | <span id="#name">Designed by Datta</span></h2>
