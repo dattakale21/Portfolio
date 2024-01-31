@@ -837,8 +837,9 @@ label:hover {
 
 @media (max-width:1423px) {
     .home .home-image img {
-        height: 70vh;
+        height: 73vh;
         width: 34vw;
+        margin-bottom: -8rem;
     }
 
     .home {
@@ -849,7 +850,8 @@ label:hover {
 @media (max-width:1344px) {
     .about .about-img img {
         width: 44vw;
-        height: 107vh;
+        height: 101vh;
+        margin-bottom: -6rem;
     }
 
     .home-content {
@@ -1269,7 +1271,7 @@ label:hover {
         margin: auto;
         margin-left: 3.1rem;
         padding-top: 6rem;
-        height: 46vh;
+        height: 44vh;
         width: 82vw;
 
     }
@@ -1343,7 +1345,7 @@ label:hover {
     .about .about-img img {
         margin-top: -19rem;
         width: 118vw;
-        height: 54vh;
+        height: 61vh;
         margin-left: -8.1rem;
     }
 
@@ -2301,7 +2303,7 @@ label:hover {
         width: 83%;
         margin-left: 6rem;
     }
-    
+
 
     .footer {
         width: 135%;
