@@ -74,6 +74,7 @@
 
           <div class="social-media">
             <!-- social media icons -->
+            <!-- External CSS framework - Boxicons-->
             <a href="https://wa.me/918767062808" target="_blank"
               ><i class="bx bxl-whatsapp"></i
             ></a>
@@ -344,9 +345,10 @@
 
               $.ajax({
                 url: "https://formspree.io/f/mbjndddg", // https://formspree.io/
-                method: "POST",
-                data: $(this).serialize(),
-                dataType: "json",
+                method: "POST",     // HTTP method for the request
+                data: $(this).serialize(),    // Serializes form data into a query string format
+                dataType: "json",     // Expected data type of the response
+                 // Function to execute if the request succeeds:-
                 success: function () {
                   Swal.fire({
                     // https://sweetalert2.github.io/
@@ -354,8 +356,9 @@
                     text: "Message Sent Successfully!",
                     icon: "success",
                   });
-                  $("#myForm")[0].reset();
+                  $("#myForm")[0].reset();   // Resets the form after submitting the form
                 },
+                // Function to execute if the request fails:-
                 error: function () {
                   Swal.fire({
                     // https://sweetalert2.github.io/
@@ -909,12 +912,12 @@
     </footer>
 
     <!-- ---------------------------- Contact JS ---------------------------------->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  <!-- CDN -->
 
     <!-- ----------------------- Scroll Reveal ------------------------------------ -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- ------------ Typed JS (used from 'mattboldt' -> search on google) for typed animation in home sectio --------------------------- -->
+    <!-- ------------ Typed JS (used from 'mattboldt' -> search on google) for typed animation in home section --------------------------- -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <!-- ---------------------------- Main JS ---------------------------------->
